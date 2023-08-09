@@ -13,6 +13,40 @@ The `compare_code` function in the `compare_code.py` file is the heart of the co
 ## Example Usage
 To demonstrate the code comparison process, an example usage is provided in the compare_code.py file. It compares two code snippets, candidate_code and correct_code, and displays the differences, including line numbers and any whitespace discrepancies.
 
+Here's a sample example:
+```python
+candidate_code = '''
+def add_numbers(a, b):
+    return a + b
+
+de multiply_numbers(a, b):
+    return a - b
+'''
+
+correct_code = '''
+def add_numbers(a, b):
+    return a + b
+
+def multiply_numbers(a, b):
+    return a * b
+'''
+```
+Output:
+```text
+Output:
+Levenshtein distance for the entire code: 2
+
+Line 5 has an issue:
+Candidate code: de multiply_numbers(a, b):
+Correct code: def multiply_numbers(a, b):
+Levenshtein distance: 1
+
+Line 6 has an issue:
+Candidate code:     return a - b
+Correct code:     return a * b
+Levenshtein distance: 1
+```
+
 ## Getting Started
 To get started with the code comparison tutorial, follow the instructions below:
 1. Install Levenshtein library first.
