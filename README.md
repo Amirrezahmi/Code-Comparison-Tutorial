@@ -1,5 +1,5 @@
 # Code Comparison Tutorial
-Welcome to the Code Comparison Tutorial! This tutorial will guide you through the process of comparing two code snippets and identifying differences using the powerful Levenshtein distance algorithm. Get ready to level up your code comparison skills!
+Welcome to the Code Comparison Tutorial! This tutorial will guide you through the process of comparing two code snippets (Not only code) and identifying differences using the powerful Levenshtein distance algorithm. Get ready to level up your code comparison skills!
 ## Technical Overview
 The code comparison tutorial utilizes the Levenshtein distance algorithm to measure the differences between lines of code. The Levenshtein distance is a metric that calculates the minimum number of single-character edits (insertions, deletions, or substitutions) required to transform one string into another.
 ### Levenshtein Distance Calculation
