@@ -73,5 +73,3 @@ python compare_code.py
 Let's dive into the exciting world of code comparison and take your skills to the next level!
 
 Happy Coding
-
-Please let me know if there's anything else I can assist you with!
